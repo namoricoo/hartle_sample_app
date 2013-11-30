@@ -6,6 +6,33 @@ gem 'rspec-rails'
 
 gem 'guard-rspec'
 
+#Webrat lets you quickly write expressive and robust acceptance tests for a Ruby web application. 
+#It supports simulating a browser inside a Ruby process to avoid the performance hit and browser dependency of Selenium or Watir
+gem  'webrat'
+
+
+group :test do
+  gem 'selenium-webdriver'
+  gem 'capybara'
+  gem 'factory_girl_rails'
+  gem 'cucumber-rails', :require => false
+  gem 'database_cleaner', github: 'bmabey/database_cleaner'
+  # Uncomment this line on OS X.
+  gem 'growl'
+
+  # Uncomment these lines on Linux.
+  # gem 'libnotify', '0.8.0'
+
+  # Uncomment these lines on Windows.
+  # gem 'rb-notifu', '0.0.4'
+  # gem 'win32console', '1.3.2'
+  # gem 'wdm', '0.1.0'
+end
+
+
+
+
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.1'
 

@@ -1,0 +1,4 @@
+# Logfile created on 2013-11-18 14:52:43 -0800 by logger.rb/36483
+D, [2013-11-18T14:52:43.984613 #23042] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-11-18T14:56:16.201055 #23135] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
+D, [2013-11-18T15:08:09.452834 #27199] DEBUG -- : REQUESTING PAGE: GET /static_pages/home with {} and HTTP headers {}
