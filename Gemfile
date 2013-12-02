@@ -19,7 +19,9 @@ group :test do
   gem 'database_cleaner', github: 'bmabey/database_cleaner'
   # Uncomment this line on OS X.
   gem 'growl'
-
+  gem 'guard-rspec'
+  #guard spec will automatically run the test for you
+     
   # Uncomment these lines on Linux.
   # gem 'libnotify', '0.8.0'
 
